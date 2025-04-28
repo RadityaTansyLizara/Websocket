@@ -30,7 +30,9 @@ npm install ws
 ### Langkah 2: Membuat Server Websocket ###
 Selanjutnya, saya membuat file server.js
 Server ini akan:
+
 •	Mendengarkan koneksi Websocket pada port 8080
+
 •	Mengirim pesan “hi” ke setiap client yang terhubung
 •	Menerima pesan dari client dan mengirimkannya kembali dengan prefix
 •	Mencatat ketika client terputus
