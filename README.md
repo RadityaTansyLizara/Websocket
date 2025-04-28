@@ -19,11 +19,13 @@ Pertama, saya membuat direktori baru untuk proyek dan menginisialisasi proyek No
 mkdir simple-websocket
 cd simple-websocket
 
-![image](https://github.com/user-attachments/assets/63183a28-ad1b-422f-b226-6e89d64eaeac)
+![image](https://github.com/user-attachments/assets/dc2037e0-545c-4bd7-9f5c-8f54c6c326f2)
 
 3. Inisialisasi Proyek dan Install Library Websocket
 npm init -y
 npm install ws
+
+  ![image](https://github.com/user-attachments/assets/63183a28-ad1b-422f-b226-6e89d64eaeac)
   
 ### Langkah 2: Membuat Server Websocket ###
 Selanjutnya, saya membuat file server.js
