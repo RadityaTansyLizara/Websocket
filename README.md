@@ -67,10 +67,14 @@ Begitu halaman terbuka, browser akan connect ke server dan otomatis menerima pes
 
 ## Kesimpulan ##
 WebSocket adalah solusi komunikasi dua arah yang sangat efisien untuk aplikasi real-time. Dengan kemampuannya menjaga koneksi tetap aktif dan latensi yang rendah, WebSocket sangat cocok untuk berbagai kebutuhan interaktif seperti chat, game, dan sistem monitoring. Eksperimen yang dilakukan membuktikan bahwa teknologi ini mudah diimplementasikan, ringan, dan memberikan performa unggul dibanding HTTP konvensional. Pengembang web masa kini perlu mempertimbangkan WebSocket sebagai komponen penting dalam membangun pengalaman pengguna yang lebih dinamis dan responsif.
-Referensi
-MDN WebSocket API - 
+
+### Referensi ###
+
+1. MDN WebSocket API - 
 https://developer.mozilla.org/en-US/docs/Web/API/WebSocket
-NPM ws Library - 
+
+2. NPM ws Library - 
 https://www.npmjs.com/package/ws
-WebSocket Use Cases - 
+
+3. WebSocket Use Cases - 
 https://ably.com/concepts/websockets
