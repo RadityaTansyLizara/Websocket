@@ -45,13 +45,22 @@ Client HTML ini menyediakan:
 Buka Terminal, ketik:
 node server.js
 Kalau berhasil, terminal akan menampilkan:
-Server Websocket berjalan di 
-## Kesimpulan ## 
+Server Websocket berjalan di ws://localhost:8080
+![image](https://github.com/user-attachments/assets/b4f4a5a1-3e3b-44e3-a6a7-522cd517d8a9)
+
+### Langkah 5: Menjalankan Server Websocket ###
+Buka index.html di browser (bisa klik dua kali file-nya atau pakai ekstensi Live Server di VSCode)
+Begitu halaman terbuka, browser akan connect ke server dan otomatis menerima pesan : "Welcome to the WebSocket Server!"
+
+### Output ###
+![image](https://github.com/user-attachments/assets/cc3ae834-415e-47a8-8fdd-314a82178a3e)
+
+## Kesimpulan ##
 WebSocket adalah solusi komunikasi dua arah yang sangat efisien untuk aplikasi real-time. Dengan kemampuannya menjaga koneksi tetap aktif dan latensi yang rendah, WebSocket sangat cocok untuk berbagai kebutuhan interaktif seperti chat, game, dan sistem monitoring. Eksperimen yang dilakukan membuktikan bahwa teknologi ini mudah diimplementasikan, ringan, dan memberikan performa unggul dibanding HTTP konvensional. Pengembang web masa kini perlu mempertimbangkan WebSocket sebagai komponen penting dalam membangun pengalaman pengguna yang lebih dinamis dan responsif.
 Referensi
-1.	MDN WebSocket API — 
+MDN WebSocket API - 
 https://developer.mozilla.org/en-US/docs/Web/API/WebSocket
-2.	NPM ws Library — 
+NPM ws Library - 
 https://www.npmjs.com/package/ws
-3.	WebSocket Use Cases — 
+WebSocket Use Cases - 
 https://ably.com/concepts/websockets
