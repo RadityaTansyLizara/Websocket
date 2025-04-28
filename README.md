@@ -33,7 +33,7 @@ Server ini akan:
 
 •	Mendengarkan koneksi Websocket pada port 8080
 
-•	Mengirim pesan “hi” ke setiap client yang terhubung
+•	Mengirim pesan “Welcome to the WebSocket Server!” ke setiap client yang terhubung
 
 •	Menerima pesan dari client dan mengirimkannya kembali dengan prefix
 
