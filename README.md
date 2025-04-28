@@ -34,15 +34,23 @@ Server ini akan:
 •	Mendengarkan koneksi Websocket pada port 8080
 
 •	Mengirim pesan “hi” ke setiap client yang terhubung
+
 •	Menerima pesan dari client dan mengirimkannya kembali dengan prefix
+
 •	Mencatat ketika client terputus
+
 ### Langkah 3: Membuat Client HTML ###
 Selanjutnya, saya membuat file client.html
 Client HTML ini menyediakan:
+
 •	Antarmuka pengguna sederhana untuk terhubung ke server Websocker
+
 •	Kotak pesan untuk menampilkan pesan yang dikirim dan diterima
+
 •	Formulir untuk mengirim pesan ke server
+
 •	Indikator status koneksi
+
 ### Langkah 4: Menjalankan Server Websocket ###
 Buka Terminal, ketik:
 node server.js
